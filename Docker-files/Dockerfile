@@ -1,5 +1,4 @@
-FROM nginx:latest
-RUN 
+FROM nginx:latest 
 RUN git clone -b test https://github.com/Hemanth0467/nginx.git
 RUN cd nginx
 COPY . /usr/share/nginx/html
